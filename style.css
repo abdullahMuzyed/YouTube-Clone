@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+img{
+    cursor: pointer;
+}
+/* header style*/
+.flex-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    padding: 10px 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    position: static;
+    top: 0;
+    left: 0;/************************************/
+    z-index: 10;
+}
+.nav-right img{
+    width: 25px;
+    margin-left: 25px;
+}
+.user-icon{
+    width: 35px;
+    border-radius: 50%;
+}
+.nav-left .munu-icon{
+    width: 25px;
+    margin-right: 25px;
+}
+.nav-left .logo{
+    width: 130px;
+}
+
+.nav-middel .mic-icon{
+    width: 16px;
+}
+.nav-middel .search-box{
+    border:1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+.search-box input{
+    width: 100%;
+    padding: 0 14px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.search-box img{
+    width:15px ;
+}
+/* header style end */
+
